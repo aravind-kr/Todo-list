@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo list</title>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/styles.css">
+	<script type="text/javascript" src="/assets/todo.js"></script>
+</head>
+<body>
+	<h1>Todo list</h1>
+	<div>
+		<form>
+			<input type="text" placeholder="Enter Todo" name="todo">
+			<button type="submit">Add</button>
+		</form>
+
+		<ul>
+			<% for(var i = 0; i < todos.length; i++ ){ %>
+				<li><%= todos[i].text %></li>
+			<% } %>
+		</ul>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@font-face
+{
+  font-family: lavenderia;
+  src: url('Fonts/Lavanderia Delicate.otf');
+}
+
+@font-face
+{
+  font-family: tangerine;
+  src: url('Fonts/Tangerine-Bold.ttf');
+}
+
+@font-face
+{
+  font-family: cedarville;
+  src: url('Fonts/Cedarville-Cursive.ttf');
+}
+
+@font-face
+{
+  font-family: shadows;
+  src: url('Fonts/ShadowsIntoLight.ttf');
+}
+
+body { 
+	background-color: #B5D6EC;
+}
+
+h1 {
+	padding: 10px;
+	text-align: center;
+	background-color: #0B467B;
+	color:#8DB5D1;
+	font-family: tangerine;
+	border-radius: 5px;
+	margin : 5px;
+}
+
+div{
+	background-color: #477AA4;
+	padding: 10px;
+	margin: 5px;
+}
+
+input {
+	padding: 5px;
+	font-size: 20px;
+	width:70%;
+	border:0;
+	float: left;
+	color: darkgrey;
+	text-align: center;
+    font-family: shadows;
+}
+button {
+	background-color: #8DB5D1;
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+    font-family: shadows;
+	border-sizing : border-box;
+	cursor: pointer;
+	width: 30%;
+	border:0;
+}
+
+button:hover {
+	background-color: #6AACD6;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+li{
+	background-color: #6AACD6; 
+	color: #0B467B;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: shadows;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+}
